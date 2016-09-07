@@ -3,7 +3,7 @@ module HelloWorldEditor {
 
     export interface IHelloWorldEditorScope extends ng.IScope {
         control: IUmbracoControl;
-        showModalEditor(): void;
+        showDialogEditor(): void;
     }
 
     // DEBUG
@@ -23,11 +23,11 @@ module HelloWorldEditor {
                 $scope.control.values.MyArray = $scope.control.editor.config.MyArray;
             }
 
-            $scope.showModalEditor = () => {
+            $scope.showDialogEditor = () => {
                 var newScope = $scope.$new();
 
                 dialogService.open({
-                    template: '/app_plugins/HelloWorldEditorPlugin/Editors/HelloWorlddialogeditor.html',
+                    template: '/app_plugins/HelloWorldEditorPlugin/Editors/helloworlddialogeditor.html',
                     scope: newScope,
                     controller: "HelloWorldDialogController",
                     show: true
