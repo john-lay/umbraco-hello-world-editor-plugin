@@ -1,0 +1,7 @@
+namespace umbraco_demo.App_Plugins.HelloWorldEditorPlugin.Models
+{
+    public class HelloWorldModel
+    {
+        public string Title { get; set; }
+    }
+}
