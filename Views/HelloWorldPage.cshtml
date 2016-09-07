@@ -1,0 +1,9 @@
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.HelloWorldPage>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+    Layout = "Master.cshtml";
+    ViewBag.Title = CurrentPage.Name;
+}
+<div class="container" id="hello-world-container">
+    @CurrentPage.GetGridHtml(Html, "helloworld") @* the second parameter is the document type alias *@
+</div>
