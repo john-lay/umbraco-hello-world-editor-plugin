@@ -1,0 +1,22 @@
+{
+  "gridEditors": [
+    {
+      "alias": "MyProject.HelloWorldEditorPlugin",
+      "name": "Hello World Editor",
+      "view": "~/App_Plugins/HelloWorldEditorPlugin/Editors/helloworldeditor.html",
+      "render": "~/App_Plugins/HelloWorldEditorPlugin/Renderers/helloworldeditor.cshtml",
+      "icon": "icon-users-alt",
+      "config": {
+        "Title": "",
+        "MyArray": [{"key": "url", "value": "Url"}, {"key": "node", "value": "Content Node"}, {"key": "sub", "value": "Sub Navigation"}]        
+      }
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/HelloWorldEditorPlugin/Scripts/App/Controllers/HelloWorldEditorController.js",
+    "~/App_Plugins/HelloWorldEditorPlugin/Scripts/App/Controllers/HelloWorldDialogEditorController.js"
+  ],
+  "css": [
+    "~/App_Plugins/HelloWorldEditorPlugin/Styles/HelloWorldEditor.css"
+  ]
+}
