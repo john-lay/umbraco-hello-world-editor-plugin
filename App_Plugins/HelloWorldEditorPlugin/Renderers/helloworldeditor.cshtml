@@ -1,0 +1,8 @@
+@inherits Umbraco.Web.Mvc.UmbracoViewPage<dynamic>
+@{
+
+    HelloWorldViewModel model = HelloWorldHelper.GetHelloWorldViewModel(Model.values);
+}
+<div>
+    <h4 class="text-left">@model.Title</h4>
+</div>
