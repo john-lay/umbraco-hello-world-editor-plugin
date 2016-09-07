@@ -13,8 +13,8 @@
     }
   ],
   "javascript": [
-    "~/App_Plugins/HelloWorldEditorPlugin/Scripts/App/Controllers/HelloWorldEditorController.js",
-    "~/App_Plugins/HelloWorldEditorPlugin/Scripts/App/Controllers/HelloWorldDialogEditorController.js"
+    "~/App_Plugins/HelloWorldEditorPlugin/Scripts/Controllers/HelloWorldEditorController.js",
+    "~/App_Plugins/HelloWorldEditorPlugin/Scripts/Controllers/HelloWorldDialogController.js"
   ],
   "css": [
     "~/App_Plugins/HelloWorldEditorPlugin/Styles/HelloWorldEditor.css"
