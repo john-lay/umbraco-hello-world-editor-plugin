@@ -1,0 +1,7 @@
+namespace umbraco_demo.ViewModels
+{
+    public class HelloWorldViewModel
+    {
+        public string Title { get; set; }
+    }
+}
