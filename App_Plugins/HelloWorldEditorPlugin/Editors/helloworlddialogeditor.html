@@ -1,0 +1,20 @@
+<div ng-controller="HelloWorldDialogController">
+    <form name="dialogContentForm" novalidate>
+        <umb-panel>
+            <div class="umb-panel-header">
+                <h3>Dialog configuration</h3>
+            </div>
+            <div class="umb-panel-body with-footer">
+                <umb-control-group label="Title Label" description="The label on the title">
+                    <input type="text" class="umb-editor" name="title" ng-model="vm.Title" required />
+                </umb-control-group>
+            </div>
+            <div class="umb-panel-footer">
+                <div class="btn-toolbar umb-btn-toolbar pull-right">
+                    <button ng-click="close()" class="btn btn-link">Cancel</button>
+                    <button ng-click="save()" class="btn btn btn-success">Save</button>
+                </div>
+            </div>
+        </umb-panel>
+    </form>
+</div>
